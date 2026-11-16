@@ -62,3 +62,5 @@ cd services/alunos && pip install -r requirements-dev.txt && pytest -v
 - [GoogleCloudPlatform/microservices-demo](https://github.com/GoogleCloudPlatform/microservices-demo) — aplicação de referência com vários microsserviços, containers e CI.
 - [microservices-patterns/ftgo-application](https://github.com/microservices-patterns/ftgo-application) — exemplo do livro *Microservices Patterns* (Chris Richardson), incluindo API Gateway.
 - [Padrão API Gateway — microservices.io](https://microservices.io/patterns/apigateway.html)
+
+Autora: Jéssica Maciel — ADS, Centro Universitário Belas Artes
