@@ -1,0 +1,21 @@
+# Sobe a plataforma EAD inteira: 3 microsserviços (bounded contexts) + API Gateway.
+# Só o gateway fica exposto para fora (porta 8000); os serviços conversam pela rede interna.
+services:
+  cursos:
+    build: ./services/cursos
+  alunos:
+    build: ./services/alunos
+  avaliacoes:
+    build: ./services/avaliacoes
+  gateway:
+    build: ./services/gateway
+    ports:
+      - "8000:5000"
+    environment:
+      CURSOS_URL: http://cursos:5000
+      ALUNOS_URL: http://alunos:5000
+      AVALIACOES_URL: http://avaliacoes:5000
+    depends_on:
+      - cursos
+      - alunos
+      - avaliacoes
