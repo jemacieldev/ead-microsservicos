@@ -1,6 +1,6 @@
 # Plataforma EAD — Microsserviços com DDD + API Gateway
 
-![CI/CD](https://github.com/SEU-USUARIO/ead-microsservicos/actions/workflows/ci-cd.yml/badge.svg)
+![CI/CD](https://github.com/jemacieldev/ead-microsservicos/actions/workflows/ci-cd.yml/badge.svg)
 
 Projeto acadêmico da disciplina **Desenvolvimento de Serviços e Microsserviços** (Centro Universitário Belas Artes).
 Case 7 da Atividade 01: **Sistema de Gestão de Educação à Distância (EAD)**.
